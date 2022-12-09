@@ -1,28 +1,28 @@
 # Aizushka
 
 ## Contacts 
-*phone:* (123) 4567890
-*e-mail:* example@example.com
+*phone:* (123) 4567890  
+*e-mail:* example@example.com  
 
 ## About
-Do my best
+Do my best  
 
 ## Skills 
-Basic HTML
-Basic CSS
-Basic JS
+Basic HTML  
+Basic CSS  
+Basic JS  
 
 ## Tools
-Git, GitHub
-VSCode
-Figma 
+Git, GitHub  
+VSCode  
+Figma  
 
 ## Code samples
-[GIT](https://github.com/Aizushka)
+[GIT](https://github.com/Aizushka)  
 
 ## Courses
-Ivan petrichenko course "Web-developer 2022": 11.2022 - present
-RS School: 05.12.2022 - present 
+Ivan petrichenko course "Web-developer 2022": 11.2022 - present  
+RS School: 05.12.2022 - present  
 
 ## English
-Intermediate
+Intermediate  
