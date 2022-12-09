@@ -1,5 +1,9 @@
 # Aizushka
 
+## Contacts 
+*phone:* (123) 4567890
+*e-mail:* example@example.com
+
 ## About
 Do my best
 
