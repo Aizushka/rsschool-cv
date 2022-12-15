@@ -5,11 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="icon" href="img/cvicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <span>HTML code will be here very soon!</span>
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#skills">Skills&Tools</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+            <div class="cv_title">
+                <img src="img/avatar.png" alt="avatar">
+                <div>
+                    <h1>Aizushka</h1>
+                    <p>Front-End Developer</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="contact">
+                <h2>Contacts</h2>
+                <ul>
+                    <li>&#128222; Phone: (123) 4567890</li>
+                    <li>&#128232; E-mail: example@example.com</li>
+                    <li>&#127918; Discord: Aizushka</li>
+                </ul>
+            </section>            
+            <section id="info">
+                <h2>About</h2>
+                <p>Do my best to become a Front-End Developer</p>
+                <p>Please, check my accounts on <a href="https://github.com/Aizushka">GitHub</a> and <a href="https://www.codewars.com/users/Aizushka">CodeWars</a></p>
+            </section>
+            <section id="skills & Tools">
+                <h2>Skills & Tools</h2> 
+                <ul class="techno">
+                    <li class="card">
+                        <h3>HTML</h3>
+                        <img src="img/html-5.png" alt="html">
+                    </li>
+                    <li class="card">
+                        <h3>CSS</h3>
+                        <img src="img/css-3.png" alt="css">
+                    </li>
+                    <li class="card">
+                        <h3>JS</h3>
+                        <img src="img/js.png" alt="js">
+                    </li>
+                    <li class="card">
+                        <h3>Bootstrap</h3>
+                        <img src="img/bootstrap.svg" alt="bootstrap">
+                    </li>
+                    <li class="card">
+                        <h3>SASS</h3>
+                        <img src="img/sass.png" alt="sass">
+                    </li>
+                    <li class="card">
+                        <h3>Git</h3>
+                        <img src="img/git.png" alt="git">
+                    </li>
+                    <li class="card">
+                        <h3>Github</h3>
+                        <img src="img/github.png" alt="github">
+                    </li>
+                    <li class="card">
+                        <h3>VsCode</h3>
+                        <img src="img/vscode.png" alt="vscode">
+                    </li>
+                    <li class="card">
+                        <h3>Figma</h3>
+                        <img src="img/figma.png" alt="figma">
+                    </li>
+                </ul> 
+            </section>
+            <section id="code">
+                <h2>Code</h2>
+                <pre>
+                    <code>
+// Return the n-th number in the Fibonacci Sequence
+
+function nthFibo(n) { 
+    if ( n&lt;=0) {
+        return undefined
+    };
+    let fibo = [0, 1];
+    for (let i=2; i&lt;n; i++) {
+        fibo[i] = fibo[i-2] + fibo[i-1];
+    }
+    return fibo[n-1];
+} 
+                    </code>
+                </pre>
+            </section>
+            <section id="courses">
+                <h2>Courses</h2>
+                <ul>
+                    <li> <a href="https://www.udemy.com/course/webdeveloper/" target="_blank">Ivan Petrichenko "Web-developer 2022"</a> </li>
+                    <li> <a href="https://rs.school/js-stage0/" target="_blank">RSSchool 2023Q1 Stage0</a></li>
+                </ul>
+            </section>
+            <section id="projects">
+                <h2>Projects</h2>
+            </section>
+            <section id="education">
+                <h2>Education</h2>
+                <p> School of Witchcraft and Wizardry</p>
+            </section>
+            <section id="english">
+                <h2>English</h2>
+                B1 - Intermediate
+            </section>
+        </main>
+        <footer>
+            <div class="footer_year">
+                <p>&copy; 2022</p>
+            </div>
+            <div class="footer_links">
+                <a href="https://github.com/Aizushka" target="_blank"><img class="footer_link" src="img/github.png" alt="github_logo"></a>
+                <a href="https://rs.school/js/" target="_blank"><img class="footer_link" src="img/rsschool_logo.png" alt="rsschool_logo"></a> 
+            </div>
+        </footer>
     </div>
 </body>
 </html>
