@@ -1,28 +1,3 @@
-/* 
-    a: 
-    #678d58
-    #ffe45e
-    #f3de2c
-    #f0db4f
-    #f7e733  titanium yellow
-    #cddfa0  yellow green crayola
-    #f2f3ae  green yellow cryola 
-    #8cb369  olivine
-    #0b7189  artichoke
-
-    Container:  
-    #2a3d45  charcoal 
-    #4a5043  rifle green 
-    #4c6085  queen blue
-    #466365  deep space sparkle
-    #120309  xiketic
-    #2b2d42  space cadet
-    #627264  Xanadu 
-    #00120b  Dark jungle green
-    #413c58  English Velvet
-    #413c58 
-*/
-
 :root {
     --main-bg-color: #413c58;
     --main-color: #f2f3ae;
@@ -51,7 +26,7 @@ a {
 a:hover {
     display: inline-block;
     background-color: var(--a-color);
-    color: black;
+    color: var(--main-bg-color);
     border-radius: 5px;
 }
 
@@ -67,9 +42,8 @@ h2 {
 }
 
 hr {
-    /* width: 300px; */
     width: 95%;
-    height: 5px;
+    height: 3px;
     margin-bottom: 10px;
     border-radius: 5px;
     border:none;
@@ -117,20 +91,19 @@ main {
 }
 
 section {
-    color: black;
     width: 40%; 
     padding-bottom: 30px;
 }
 
 .cards {
+    width: 90%;
     display: flex; 
     flex-wrap: wrap;
-    justify-content: start;
-    width: 89%;
+    justify-content: center;
 } 
 
 .card {
-    width: 26%;
+    width: 30%;
     margin-bottom: 17px;
 }
 
@@ -139,6 +112,11 @@ section {
     max-width: 50px;
     max-width: 60px;
     margin: 0 auto;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
 }
 
 code {
