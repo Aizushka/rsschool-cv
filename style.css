@@ -1,0 +1,150 @@
+:root {
+    --main-bg-color: #413c58;
+    --main-color: #f2f3ae;
+    --a-color: #f05033;
+    --a-hover-color: #f05033;
+    --hr-bg-color: #4c6085;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--main-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-color); 
+    cursor: pointer;
+}
+
+a:hover {
+    display: inline-block;
+    background-color: var(--a-color);
+    color: var(--main-bg-color);
+    border-radius: 5px;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: var(--main-bg-color);
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 95%;
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:none;
+
+    background-color: var(--hr-bg-color);
+}
+
+h3 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.cv_title {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 100px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+section {
+    width: 40%; 
+    padding-bottom: 30px;
+}
+
+.cards {
+    width: 90%;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.card {
+    width: 30%;
+    margin-bottom: 17px;
+}
+
+.card img {
+    display: block;
+    max-width: 50px;
+    max-width: 60px;
+    margin: 0 auto;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
+}
+
+code {
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%;
+}
+
+.footer_link {
+    max-width: 70px;
+    max-height: 35px;
+    padding: 5px;
+}
+
+.footer_links a:hover {
+    background-color: var(--a-hover-color);
+}
